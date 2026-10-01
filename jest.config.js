@@ -15,6 +15,7 @@ const config = {
   moduleNameMapper: {
     "^(\\.{1,2}/.*)\\.ts$": "$1",
   },
+  reporters: ["<rootDir>/tests/simple-reporter.js"],
 };
 
 export default config;

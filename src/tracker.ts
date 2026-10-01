@@ -47,21 +47,32 @@ export function shouldKeep(
   return false;
 }
 
-export function startTracker(config: TrackerConfig, outbox: Outbox): () => void {
+export function startTracker(
+  config: TrackerConfig,
+  outbox: Outbox,
+  kept?: Message[],
+): () => void {
   const sample = sources[config.source];
   let lastKept: KeptSample | null = null;
+  let busy = false;
 
   const tick = async () => {
+    if (busy) return;
     const ts = Date.now();
     const value = sample(ts);
     if (!shouldKeep(value, ts, lastKept, config.precision)) return;
+    busy = true;
+    const message: Message = { name: config.name, ts, value };
     try {
-      await outbox.append({ name: config.name, ts, value });
+      kept?.push(message);
+      await outbox.append(message);
       lastKept = { ts, value };
       log("kept", config.name, ts, value);
     } catch (err) {
       // leave lastKept unchanged; drop this sample and continue
       log("append failed", config.name, ts, String(err));
+    } finally {
+      busy = false;
     }
   };
 

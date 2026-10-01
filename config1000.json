@@ -1,0 +1,6002 @@
+[
+  {
+    "name": "t0",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t1",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t2",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t3",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t4",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t5",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t6",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t7",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t8",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t9",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t10",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t11",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t12",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t13",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t14",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t15",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t16",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t17",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t18",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t19",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t20",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t21",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t22",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t23",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t24",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t25",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t26",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t27",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t28",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t29",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t30",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t31",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t32",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t33",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t34",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t35",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t36",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t37",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t38",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t39",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t40",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t41",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t42",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t43",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t44",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t45",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t46",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t47",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t48",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t49",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t50",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t51",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t52",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t53",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t54",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t55",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t56",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t57",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t58",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t59",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t60",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t61",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t62",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t63",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t64",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t65",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t66",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t67",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t68",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t69",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t70",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t71",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t72",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t73",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t74",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t75",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t76",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t77",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t78",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t79",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t80",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t81",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t82",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t83",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t84",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t85",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t86",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t87",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t88",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t89",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t90",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t91",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t92",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t93",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t94",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t95",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t96",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t97",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t98",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t99",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t100",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t101",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t102",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t103",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t104",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t105",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t106",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t107",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t108",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t109",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t110",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t111",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t112",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t113",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t114",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t115",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t116",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t117",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t118",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t119",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t120",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t121",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t122",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t123",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t124",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t125",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t126",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t127",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t128",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t129",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t130",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t131",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t132",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t133",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t134",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t135",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t136",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t137",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t138",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t139",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t140",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t141",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t142",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t143",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t144",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t145",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t146",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t147",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t148",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t149",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t150",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t151",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t152",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t153",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t154",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t155",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t156",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t157",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t158",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t159",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t160",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t161",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t162",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t163",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t164",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t165",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t166",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t167",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t168",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t169",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t170",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t171",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t172",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t173",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t174",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t175",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t176",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t177",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t178",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t179",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t180",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t181",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t182",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t183",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t184",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t185",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t186",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t187",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t188",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t189",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t190",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t191",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t192",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t193",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t194",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t195",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t196",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t197",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t198",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t199",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t200",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t201",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t202",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t203",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t204",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t205",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t206",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t207",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t208",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t209",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t210",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t211",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t212",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t213",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t214",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t215",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t216",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t217",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t218",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t219",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t220",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t221",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t222",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t223",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t224",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t225",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t226",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t227",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t228",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t229",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t230",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t231",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t232",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t233",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t234",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t235",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t236",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t237",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t238",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t239",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t240",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t241",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t242",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t243",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t244",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t245",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t246",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t247",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t248",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t249",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t250",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t251",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t252",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t253",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t254",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t255",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t256",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t257",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t258",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t259",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t260",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t261",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t262",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t263",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t264",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t265",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t266",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t267",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t268",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t269",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t270",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t271",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t272",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t273",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t274",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t275",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t276",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t277",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t278",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t279",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t280",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t281",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t282",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t283",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t284",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t285",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t286",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t287",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t288",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t289",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t290",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t291",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t292",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t293",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t294",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t295",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t296",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t297",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t298",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t299",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t300",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t301",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t302",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t303",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t304",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t305",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t306",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t307",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t308",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t309",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t310",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t311",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t312",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t313",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t314",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t315",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t316",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t317",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t318",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t319",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t320",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t321",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t322",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t323",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t324",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t325",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t326",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t327",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t328",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t329",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t330",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t331",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t332",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t333",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t334",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t335",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t336",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t337",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t338",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t339",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t340",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t341",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t342",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t343",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t344",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t345",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t346",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t347",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t348",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t349",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t350",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t351",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t352",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t353",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t354",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t355",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t356",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t357",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t358",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t359",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t360",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t361",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t362",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t363",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t364",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t365",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t366",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t367",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t368",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t369",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t370",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t371",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t372",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t373",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t374",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t375",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t376",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t377",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t378",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t379",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t380",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t381",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t382",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t383",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t384",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t385",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t386",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t387",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t388",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t389",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t390",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t391",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t392",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t393",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t394",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t395",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t396",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t397",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t398",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t399",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t400",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t401",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t402",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t403",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t404",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t405",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t406",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t407",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t408",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t409",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t410",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t411",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t412",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t413",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t414",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t415",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t416",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t417",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t418",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t419",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t420",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t421",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t422",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t423",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t424",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t425",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t426",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t427",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t428",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t429",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t430",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t431",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t432",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t433",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t434",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t435",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t436",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t437",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t438",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t439",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t440",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t441",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t442",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t443",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t444",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t445",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t446",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t447",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t448",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t449",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t450",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t451",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t452",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t453",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t454",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t455",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t456",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t457",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t458",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t459",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t460",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t461",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t462",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t463",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t464",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t465",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t466",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t467",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t468",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t469",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t470",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t471",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t472",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t473",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t474",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t475",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t476",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t477",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t478",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t479",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t480",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t481",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t482",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t483",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t484",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t485",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t486",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t487",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t488",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t489",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t490",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t491",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t492",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t493",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t494",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t495",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t496",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t497",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t498",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t499",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t500",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t501",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t502",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t503",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t504",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t505",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t506",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t507",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t508",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t509",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t510",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t511",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t512",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t513",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t514",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t515",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t516",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t517",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t518",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t519",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t520",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t521",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t522",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t523",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t524",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t525",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t526",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t527",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t528",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t529",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t530",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t531",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t532",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t533",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t534",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t535",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t536",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t537",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t538",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t539",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t540",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t541",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t542",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t543",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t544",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t545",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t546",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t547",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t548",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t549",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t550",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t551",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t552",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t553",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t554",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t555",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t556",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t557",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t558",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t559",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t560",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t561",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t562",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t563",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t564",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t565",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t566",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t567",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t568",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t569",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t570",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t571",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t572",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t573",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t574",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t575",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t576",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t577",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t578",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t579",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t580",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t581",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t582",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t583",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t584",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t585",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t586",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t587",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t588",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t589",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t590",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t591",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t592",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t593",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t594",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t595",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t596",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t597",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t598",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t599",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t600",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t601",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t602",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t603",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t604",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t605",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t606",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t607",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t608",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t609",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t610",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t611",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t612",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t613",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t614",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t615",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t616",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t617",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t618",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t619",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t620",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t621",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t622",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t623",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t624",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t625",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t626",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t627",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t628",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t629",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t630",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t631",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t632",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t633",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t634",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t635",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t636",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t637",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t638",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t639",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t640",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t641",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t642",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t643",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t644",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t645",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t646",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t647",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t648",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t649",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t650",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t651",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t652",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t653",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t654",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t655",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t656",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t657",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t658",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t659",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t660",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t661",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t662",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t663",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t664",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t665",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t666",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t667",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t668",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t669",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t670",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t671",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t672",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t673",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t674",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t675",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t676",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t677",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t678",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t679",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t680",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t681",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t682",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t683",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t684",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t685",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t686",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t687",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t688",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t689",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t690",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t691",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t692",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t693",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t694",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t695",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t696",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t697",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t698",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t699",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t700",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t701",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t702",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t703",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t704",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t705",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t706",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t707",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t708",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t709",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t710",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t711",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t712",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t713",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t714",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t715",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t716",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t717",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t718",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t719",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t720",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t721",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t722",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t723",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t724",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t725",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t726",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t727",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t728",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t729",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t730",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t731",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t732",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t733",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t734",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t735",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t736",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t737",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t738",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t739",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t740",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t741",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t742",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t743",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t744",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t745",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t746",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t747",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t748",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t749",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t750",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t751",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t752",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t753",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t754",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t755",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t756",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t757",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t758",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t759",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t760",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t761",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t762",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t763",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t764",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t765",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t766",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t767",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t768",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t769",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t770",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t771",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t772",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t773",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t774",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t775",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t776",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t777",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t778",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t779",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t780",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t781",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t782",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t783",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t784",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t785",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t786",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t787",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t788",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t789",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t790",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t791",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t792",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t793",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t794",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t795",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t796",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t797",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t798",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t799",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t800",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t801",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t802",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t803",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t804",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t805",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t806",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t807",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t808",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t809",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t810",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t811",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t812",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t813",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t814",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t815",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t816",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t817",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t818",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t819",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t820",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t821",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t822",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t823",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t824",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t825",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t826",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t827",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t828",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t829",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t830",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t831",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t832",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t833",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t834",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t835",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t836",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t837",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t838",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t839",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t840",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t841",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t842",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t843",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t844",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t845",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t846",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t847",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t848",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t849",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t850",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t851",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t852",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t853",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t854",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t855",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t856",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t857",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t858",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t859",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t860",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t861",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t862",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t863",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t864",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t865",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t866",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t867",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t868",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t869",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t870",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t871",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t872",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t873",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t874",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t875",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t876",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t877",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t878",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t879",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t880",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t881",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t882",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t883",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t884",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t885",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t886",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t887",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t888",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t889",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t890",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t891",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t892",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t893",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t894",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t895",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t896",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t897",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t898",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t899",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t900",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t901",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t902",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t903",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t904",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t905",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t906",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t907",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t908",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t909",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t910",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t911",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t912",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t913",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t914",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t915",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t916",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t917",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t918",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t919",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t920",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t921",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t922",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t923",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t924",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t925",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t926",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t927",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t928",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t929",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t930",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t931",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t932",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t933",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t934",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t935",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t936",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t937",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t938",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t939",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t940",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t941",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t942",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t943",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t944",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t945",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t946",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t947",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t948",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t949",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t950",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t951",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t952",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t953",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t954",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t955",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t956",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t957",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t958",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t959",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t960",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t961",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t962",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t963",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t964",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t965",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t966",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t967",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t968",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t969",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t970",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t971",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t972",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t973",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t974",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t975",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t976",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t977",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t978",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t979",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  },
+  {
+    "name": "t980",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.05
+  },
+  {
+    "name": "t981",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.060000000000000005
+  },
+  {
+    "name": "t982",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.07
+  },
+  {
+    "name": "t983",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.08
+  },
+  {
+    "name": "t984",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.09
+  },
+  {
+    "name": "t985",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.1
+  },
+  {
+    "name": "t986",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.11
+  },
+  {
+    "name": "t987",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.12000000000000001
+  },
+  {
+    "name": "t988",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.13
+  },
+  {
+    "name": "t989",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.14
+  },
+  {
+    "name": "t990",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.15000000000000002
+  },
+  {
+    "name": "t991",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.16
+  },
+  {
+    "name": "t992",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.16999999999999998
+  },
+  {
+    "name": "t993",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.18
+  },
+  {
+    "name": "t994",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.19
+  },
+  {
+    "name": "t995",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.2
+  },
+  {
+    "name": "t996",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.21000000000000002
+  },
+  {
+    "name": "t997",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.22000000000000003
+  },
+  {
+    "name": "t998",
+    "source": "sin",
+    "sampleMs": 1000,
+    "precision": 0.22999999999999998
+  },
+  {
+    "name": "t999",
+    "source": "cos",
+    "sampleMs": 1000,
+    "precision": 0.24
+  }
+]
