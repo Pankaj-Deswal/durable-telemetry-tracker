@@ -22,6 +22,19 @@ export type TrackerConfig = {
   precision: number;
 };
 
+export function validateConfig(config: TrackerConfig[]): void {
+  const seen = new Set<string>();
+  for (const tracker of config) {
+    const key = `${tracker.name}:${tracker.sampleMs}`;
+    if (seen.has(key)) {
+      throw new Error(
+        "Duplicate name+sampleMs value Not supportted. Correct the JSON file.",
+      );
+    }
+    seen.add(key);
+  }
+}
+
 export function shouldKeep(
   value: number,
   ts: number,
@@ -38,16 +51,21 @@ export function startTracker(config: TrackerConfig, outbox: Outbox): () => void 
   const sample = sources[config.source];
   let lastKept: KeptSample | null = null;
 
-  const tick = () => {
+  const tick = async () => {
     const ts = Date.now();
     const value = sample(ts);
     if (!shouldKeep(value, ts, lastKept, config.precision)) return;
-    lastKept = { ts, value };
-    outbox.append({ name: config.name, ts, value });
-    log("kept", config.name, ts, value);
+    try {
+      await outbox.append({ name: config.name, ts, value });
+      lastKept = { ts, value };
+      log("kept", config.name, ts, value);
+    } catch (err) {
+      // leave lastKept unchanged; drop this sample and continue
+      log("append failed", config.name, ts, String(err));
+    }
   };
 
-  tick();
-  const id = setInterval(tick, config.sampleMs);
+  void tick();
+  const id = setInterval(() => void tick(), config.sampleMs);
   return () => clearInterval(id);
 }

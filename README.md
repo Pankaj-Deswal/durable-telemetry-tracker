@@ -18,6 +18,8 @@ Reads `config.json`, writes kept messages to `data/outbox.sqlite`, publishes bat
 npm test
 ```
 
+Jest suites: `tests/tracking.test.ts` (config → outbox) and `tests/forwarding.test.ts` (outbox → publish), covering happy and sad paths.
+
 ## Design
 
 ### Tracking

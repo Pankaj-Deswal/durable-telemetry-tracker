@@ -19,8 +19,7 @@ export function publish(
     return new Promise(() => {});
   }
 
-  const line = JSON.stringify(batch) + "\n";
-  process.stdout.write(line);
+  process.stdout.write(JSON.stringify(batch) + "\n");
 
   if (r < 0.6) {
     log("publish wrote then rejected");

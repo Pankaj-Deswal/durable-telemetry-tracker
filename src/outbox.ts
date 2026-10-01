@@ -47,17 +47,17 @@ export class Outbox {
     }
   }
 
-  append(message: Message): void {
+  async append(message: Message): Promise<void> {
     this.insert.run(message.name, message.ts, message.value);
   }
 
-  all(): Message[] {
+  async all(): Promise<Message[]> {
     return this.db
       .prepare("SELECT name, ts, value FROM messages ORDER BY ts, name")
       .all() as Message[];
   }
 
-  claimBatch(limit = 5000): Batch | null {
+  async claimBatch(limit = 5000): Promise<Batch | null> {
     return this.db.transaction(() => {
       const inFlight = this.db
         .prepare(
@@ -68,10 +68,11 @@ export class Outbox {
         .all() as (Message & { batch_id: string })[];
 
       if (inFlight.length > 0) {
+        const batch_id = inFlight[0].batch_id;
         return {
-          batch_id: inFlight[0].batch_id,
+          batch_id,
           messages: inFlight
-            .filter(({ batch_id }) => batch_id === inFlight[0].batch_id)
+            .filter((m) => m.batch_id === batch_id)
             .map(({ name, ts, value }) => ({ name, ts, value })),
         };
       }
@@ -88,23 +89,25 @@ export class Outbox {
       if (pending.length === 0) return null;
 
       const batch_id = randomUUID();
-      const assign = this.db.prepare(
-        "UPDATE messages SET batch_id = ? WHERE name = ? AND ts = ?",
-      );
-      for (const m of pending) {
-        assign.run(batch_id, m.name, m.ts);
-      }
+      const placeholders = pending.map(() => "(?, ?)").join(", ");
+      const values = pending.flatMap((m) => [m.name, m.ts]);
+      this.db
+        .prepare(
+          `UPDATE messages SET batch_id = ?
+           WHERE (name, ts) IN (${placeholders})`,
+        )
+        .run(batch_id, ...values);
       return { batch_id, messages: pending };
     })();
   }
 
-  markPublished(batch_id: string): void {
+  async markPublished(batch_id: string): Promise<void> {
     this.db
       .prepare("UPDATE messages SET published = 1 WHERE batch_id = ?")
       .run(batch_id);
   }
 
-  close(): void {
+  async close(): Promise<void> {
     this.db.close();
   }
 }

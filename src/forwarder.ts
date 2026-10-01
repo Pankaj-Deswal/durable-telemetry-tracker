@@ -2,8 +2,8 @@ import { log } from "./log.ts";
 import type { Batch, Outbox } from "./outbox.ts";
 import { publish as defaultPublish } from "./publish.ts";
 
-export const FORWARD_INTERVAL_MS = 10_000;
-export const PUBLISH_TIMEOUT_MS = 5_000;
+export const FORWARD_INTERVAL_MS = 10000;
+export const PUBLISH_TIMEOUT_MS = 5000;
 
 export type PublishFn = (batch: Batch) => Promise<void>;
 
@@ -28,12 +28,12 @@ export async function runOnce(
   publishFn: PublishFn = defaultPublish,
   timeoutMs = PUBLISH_TIMEOUT_MS,
 ): Promise<void> {
-  const batch = outbox.claimBatch();
+  const batch = await outbox.claimBatch();
   if (!batch) return;
 
   try {
     await withTimeout(publishFn(batch), timeoutMs);
-    outbox.markPublished(batch.batch_id);
+    await outbox.markPublished(batch.batch_id);
     log("published", batch.batch_id, batch.messages.length);
   } catch (err) {
     log("publish failed", batch.batch_id, String(err));
