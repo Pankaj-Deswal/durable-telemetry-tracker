@@ -22,9 +22,30 @@ export type TrackerConfig = {
   precision: number;
 };
 
-export function validateConfig(config: TrackerConfig[]): void {
+export function validateConfig(
+  config: Array<{
+    name: string;
+    source: string;
+    sampleMs: number;
+    precision: number;
+  }>,
+): void {
   const seen = new Set<string>();
   for (const tracker of config) {
+    if (!tracker.name?.trim()) {
+      throw new Error("Empty name is not supported. Correct the JSON file.");
+    }
+    if (tracker.source !== "sin" && tracker.source !== "cos") {
+      throw new Error(
+        `Unknown source "${tracker.source}". Correct the JSON file.`,
+      );
+    }
+    if (!(tracker.sampleMs >= 1000)) {
+      throw new Error("sampleMs must be >= 1000. Correct the JSON file.");
+    }
+    if (!Number.isFinite(tracker.precision) || tracker.precision < 0) {
+      throw new Error("Invalid precision. Correct the JSON file.");
+    }
     const key = `${tracker.name}:${tracker.sampleMs}`;
     if (seen.has(key)) {
       throw new Error(

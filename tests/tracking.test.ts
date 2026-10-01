@@ -171,13 +171,42 @@ describe("tracking (config → outbox)", () => {
     await outbox.close();
   });
 
-  it("sad: duplicate name+sampleMs in config is rejected", () => {
-    const config: TrackerConfig[] = [
-      { name: "one", source: "sin", sampleMs: 1000, precision: 0.08 },
-      { name: "one", source: "cos", sampleMs: 1000, precision: 0.15 },
-    ];
-    expect(() => validateConfig(config)).toThrow(
+  it("sad: invalid config entries are rejected", () => {
+    expect(() =>
+      validateConfig([
+        { name: "one", source: "sin", sampleMs: 1000, precision: 0.08 },
+        { name: "one", source: "cos", sampleMs: 1000, precision: 0.15 },
+      ]),
+    ).toThrow(
       "Duplicate name+sampleMs value Not supportted. Correct the JSON file.",
     );
+
+    expect(() =>
+      validateConfig([{ name: "", source: "sin", sampleMs: 1000, precision: 0.1 }]),
+    ).toThrow("Empty name is not supported. Correct the JSON file.");
+
+    expect(() =>
+      validateConfig([
+        { name: "one", source: "tan", sampleMs: 1000, precision: 0.1 },
+      ]),
+    ).toThrow('Unknown source "tan". Correct the JSON file.');
+
+    expect(() =>
+      validateConfig([
+        { name: "one", source: "sin", sampleMs: 999, precision: 0.1 },
+      ]),
+    ).toThrow("sampleMs must be >= 1000. Correct the JSON file.");
+
+    expect(() =>
+      validateConfig([
+        { name: "one", source: "sin", sampleMs: 1000, precision: -1 },
+      ]),
+    ).toThrow("Invalid precision. Correct the JSON file.");
+
+    expect(() =>
+      validateConfig([
+        { name: "one", source: "sin", sampleMs: 1000, precision: Number.NaN },
+      ]),
+    ).toThrow("Invalid precision. Correct the JSON file.");
   });
 });
