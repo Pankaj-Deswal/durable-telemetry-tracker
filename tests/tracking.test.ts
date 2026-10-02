@@ -2,6 +2,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { afterEach, describe, expect, it, jest } from "@jest/globals";
+import Database from "better-sqlite3";
 import { Outbox } from "../src/outbox.ts";
 import { startTracker, validateConfig, type TrackerConfig } from "../src/tracker.ts";
 
@@ -169,6 +170,30 @@ describe("tracking (config → outbox)", () => {
     await outbox.append({ name: "one", ts: 1000, value: 0.9 });
     expect(await outbox.all()).toEqual([{ name: "one", ts: 1000, value: 0.1 }]);
     await outbox.close();
+  });
+
+  it("sad: crash mid-write may lose the latest row; outbox stays usable", async () => {
+    const dbPath = tempDb();
+    const before = new Outbox(dbPath);
+    await before.append({ name: "one", ts: 1, value: 0.1 });
+    await before.close();
+
+    // Simulate dying during an uncommitted insert after a successful write.
+    const raw = new Database(dbPath);
+    raw.exec("BEGIN IMMEDIATE");
+    raw
+      .prepare("INSERT INTO messages (name, ts, value) VALUES (?, ?, ?)")
+      .run("lost", 2, 0.2);
+    raw.close();
+
+    const after = new Outbox(dbPath);
+    expect(await after.all()).toEqual([{ name: "one", ts: 1, value: 0.1 }]);
+    await after.append({ name: "three", ts: 3, value: 0.3 });
+    expect(await after.all()).toEqual([
+      { name: "one", ts: 1, value: 0.1 },
+      { name: "three", ts: 3, value: 0.3 },
+    ]);
+    await after.close();
   });
 
   it("sad: invalid config entries are rejected", () => {

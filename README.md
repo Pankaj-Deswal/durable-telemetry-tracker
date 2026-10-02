@@ -30,6 +30,8 @@ flowchart LR
 - **Async append** — `lastKept` is updated only after a successful outbox write; a failed append leaves state unchanged and the sample is dropped.
 - **Config validation** — Rejects empty name, unknown source, `sampleMs < 1000`, invalid precision, and duplicate `name`+`sampleMs`.
 
+
+
 ### Forwarding
 
 ```mermaid
@@ -52,10 +54,14 @@ flowchart LR
   - **in flight** — has a `batch_id`, not yet published
   - **published** — `publish` resolved successfully
 - **Claim every 10s** — Reuse any in-flight `batch_id` to retry sending that batch again. If there is no in-flight batch, assign a new UUID to up to 5,000 pending rows, update them in the DB, and send them as one batch.
+- **Schedule** — One forwarding attempt runs immediately at startup, then every 10 s. A busy guard skips overlapping ticks.
 - **Publish** — Writes one JSON line `{ batch_id, messages }` to stdout; fails at random (reject, hang, write-then-reject).
+- **5 s timeout** — Each publish is raced against a 5 s timer. On timeout the attempt fails and is retried on the next 10 s tick; the timer does not cancel the underlying promise.
 - **Retry same batch_id** — On failure the batch stays in flight; the next attempt reuses the same id.
 - **Mark published only on success** — New pending messages wait until the current in-flight batch is done.
 - **Receiver deduplication** — Deduplicates on `batch_id`, so retries can appear more than once on the wire safely.
+
+
 
 ## Run
 
@@ -84,24 +90,28 @@ npm test
 
 Integration tests (happy and sad paths):
 
-- `tests/tracking.test.ts` — config → keep rules → outbox. Covers first sample, significant change, heartbeat, restart freshness, failed append (no `lastKept` update), high precision drops, duplicate `(name, ts)`, and config validation.
-- `tests/forwarding.test.ts` — outbox → claim → publish. Covers successful publish, empty outbox, same `batch_id` on reject/timeout/write-then-reject, 5,000-message batch cap, and retrying a failed batch before new pending events.
+- `tests/tracking.test.ts` — config → keep rules → outbox. Covers first sample, significant change, heartbeat, restart freshness, failed append (no `lastKept` update), high precision drops, duplicate `(name, ts)`, config validation, and crash mid-write (uncommitted row lost; outbox stays usable after reopen).
+- `tests/forwarding.test.ts` — outbox → claim → publish. Covers successful publish, empty outbox, same `batch_id` on reject/timeout/write-then-reject, 5,000-message batch cap and retrying a failed batch before new pending events
 - `tests/tracking1000.test.ts` — scale/concurrency with 1,000 Trackers (`config1000.json)`. Covers slow-write overlap safety, 1,000 trackers just keep their first sample and 1,000 trackers with slow writes (DB matches an in-memory kept list).
+
+
 
 ## Guarantees
 
 - **Durable outbox after commit** — Once `append` commits, the message is still there after a process restart.
   - *Does not hold if:* the process dies during the write (transaction not committed). With `synchronous=NORMAL`, an OS/power crash can also lose the latest committed transaction(s) even though the DB stays usable.
-- **`(name, ts)` uniqueness** — Each message is identified by `name`+`ts`. The outbox primary key plus `INSERT OR IGNORE` ensures at most one row per pair.
+- `(name, ts)` **uniqueness** — Each message is identified by `name`+`ts`. The outbox primary key plus `INSERT OR IGNORE` ensures at most one row per pair.
 - **Batch size cap** — A claimed batch has at most 5,000 messages.
 - **No loss to the cloud (at-least-once on the wire)** — Every committed outbox message is eventually published to stdout if the app keeps running long enough for retries to succeed.
   - *Does not hold if:* the process is stopped permanently, the DB file is deleted/corrupted outside the app, or generation outpaces delivery for long enough that the unpublished backlog grows without bound (see **Backpressure when ingress outpaces forwarding** under Left out).
 - **No duplicates after** `batch_id` **deduplication** — A message is assigned one `batch_id` and stays on that batch until published. Retries reuse the same id. After the receiver deduplicates by `batch_id`, each message appears once.
   - *Does not hold if:* the receiver does not deduplicate on `batch_id` (write-then-reject and timeouts can put the same batch on stdout more than once).
-- **Crash safety** — The outbox stays usable after a crash, including if the process died in the middle of a write. Incomplete transactions are rolled back on open; in-flight batches are retried with the same `batch_id` after restart.
+- **Crash safety** — The outbox stays usable after a crash, including if the process died in the middle of a write. Recent committed transactions may be lost on OS crash or power failure. Incomplete transactions are rolled back on open. in-flight batches are retried with the same `batch_id` after restart.
   - *Does not hold if:* the disk/filesystem itself is damaged, or someone edits/deletes `data/outbox.sqlite` by hand.
 - **Tracker restart semantics** — After restart, each tracker’s first sample is kept again (`lastKept` is not persisted).
   - *Does not hold as “no extra samples”:* restart can re-keep a value that would not have been kept in a continuous run. That is intentional per the challenge.
+
+
 
 ## Left out
 
@@ -111,5 +121,6 @@ Integration tests (happy and sad paths):
 - **External brokers / remote DBs** — Embedded SQLite only. Left out because the challenge forbids external services and local durability is the point.
 - **Multi-process / multi-host outbox** — Single process assumes exclusive use of the DB file. Left out to avoid distributed locking.
 - **Busy flag / skipped intervals** — Overlapping ticks while an append is in process are skipped so keep-state is not corrupted. This can lose some sampling intervals, especially when many trackers update the outbox at once and appends are delayed.
+- **Write order** — We do not care about the order messages are written or forwarded. This implementation does not try to preserve order.
 - **Backpressure when ingress outpaces forwarding** — In the worst case, 1,000 trackers updating the outbox every second can add far more than 5,000 messages per 10 s(up to 10,000), while forwarding sends at most 5,000 per 10 s. Unpublished messages can accumulate; this backlog case is not handled (no shedding, throttling or faster drain).
 
